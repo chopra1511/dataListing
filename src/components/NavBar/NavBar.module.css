@@ -1,0 +1,38 @@
+.navbar {
+    background-color: #007aff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.leftHeader {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.leftHeader h2{
+    margin: 0;
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: white;
+    line-height: 36px;
+}
+
+.leftHeader div{
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+}
+
+.rightHeader h2{
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    color: white;
+}
